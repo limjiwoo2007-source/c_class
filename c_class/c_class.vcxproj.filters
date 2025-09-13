@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\day4">
       <UniqueIdentifier>{93d69e2f-093d-413a-a11a-161ac26a76fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day7">
+      <UniqueIdentifier>{0be8ab58-a17e-4a15-8a6a-1c708be9e2da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="곱셈.c">
@@ -129,7 +132,7 @@
     <ClCompile Include="for문.c">
       <Filter>소스 파일\day4</Filter>
     </ClCompile>
-    <ClCompile Include="제곱출력.c">
+    <ClCompile Include="제곱출력%28무한루프%29.c">
       <Filter>소스 파일\day4</Filter>
     </ClCompile>
     <ClCompile Include="break문.c">
@@ -167,6 +170,33 @@
     </ClCompile>
     <ClCompile Include="포인터배열.c">
       <Filter>소스 파일\day6</Filter>
+    </ClCompile>
+    <ClCompile Include="2차원배열.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="2차원배열구구단.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="좌석예약.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="배열포인터.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열과포인터.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="stringcompare.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열포인터영어문제.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="함수.c">
+      <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="곱하기연산하기.c">
+      <Filter>소스 파일\day7</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -30,4 +30,4 @@ int main(void)
 /*
 1. int* p
 2. 
-/
+*/
