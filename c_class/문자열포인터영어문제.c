@@ -3,9 +3,9 @@
 int main(void)
 {
 	const char* questions[] = {
-		"'한국'을 영어로 입력하세요: ",
-		"'고양이'을 영어로 입력하세요: ",
-		"'사과'을 영어로 입력하세요: ",
+		"한국",
+		"고양이",
+		"사과"
 	};
 
 	const char* answers[] = {
@@ -42,7 +42,7 @@ int main(void)
 
 		//만약 user 입력값과 answers의 i가 같다면 정답입니다 출력 후 score 증가
 		//아니라면 틀렸습니다 정답은 **입니다. 후 정답 출력
-		if (strcmp(user, questions[i]==0)) {
+		if (strcmp(user, answers[i])==0) {
 			printf("정답입니다\n");
 			score++;
 		}
@@ -63,11 +63,11 @@ int main(void)
 	if (score == total) {
 		printf("완벽해요");
 	}
-	if (score >= total/2) {
+	else if (score >= total/2) {
 		printf("조금만 더 연습해요");
 	}
 	else {
 		printf("다음에는 더 열심히 해봐요~");
 	}
 	return 0;
-} //이상하게 나온다;;ㅜㅜ
+} 
