@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\day7">
       <UniqueIdentifier>{0be8ab58-a17e-4a15-8a6a-1c708be9e2da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day8">
+      <UniqueIdentifier>{9bf360b9-bd74-43e0-ac93-fc870dc1114b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="곱셈.c">
@@ -197,6 +200,33 @@
     </ClCompile>
     <ClCompile Include="곱하기연산하기.c">
       <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="함수실습1.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="함수원형실습.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="지역변수.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터와함수관계.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="이중포인터.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="메모리의동적할당.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="구조체.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="구조체배열.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="구조체와함수.c">
+      <Filter>소스 파일\day8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
